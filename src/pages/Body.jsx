@@ -3,7 +3,7 @@ import SearchRestaurant from "../Components/SearchRestaurant";
 import Shimmer from "../Components/Shimmer";
 import { Link } from "react-router-dom";
 import useRestaurantAndFilter from "../Hooks/useRestaurantAndFilter";
-import InternetConnection from "../Components/InternetConeection";
+import InternetConnection from "../Components/InternetConeection"; 
 import useIsOnline from "../Hooks/useIsOnline";
 import withRestaurantOffer from "../Components/hoc/withRestuarntOffer";
 
