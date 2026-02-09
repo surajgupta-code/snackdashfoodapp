@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { clearItems } from "../Redux/Slices/cartSlice";
+import { clearItems } from "../redux/Slices/cartSlice";
 import CartItem from "../Components/CartItem";
 import CartEmpty from "./CartEmpty";//./CartEmpty
 
