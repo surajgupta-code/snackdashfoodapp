@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { clearItems } from "../Redux/Slices/cartSlice";
 import CartItem from "../Components/CartItem";
-import CartEmpty from "../Pages/CartEmpty";
+import CartEmpty from "./CartEmpty";//./CartEmpty
 
 const Cart = () => {
   const cartItems = useSelector((store) => store.cart.items);
