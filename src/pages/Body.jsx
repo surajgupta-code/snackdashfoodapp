@@ -2,9 +2,9 @@ import RestaurantCard from "../Components/RestaurantCard";
 import SearchRestaurant from "../Components/SearchRestaurant";
 import Shimmer from "../Components/Shimmer";
 import { Link } from "react-router-dom";
-import useRestaurantAndFilter from "../Hooks/useRestaurantAndFilter";
+import useRestaurantAndFilter from "../hooks/useRestaurantAndFilter";
 import InternetConnection from "../Components/InternetConeection"; 
-import useIsOnline from "../Hooks/useIsOnline";
+import useIsOnline from "../hooks/useIsOnline";
 import withRestaurantOffer from "../Components/hoc/withRestuarntOffer";
 
 const Body = () => {

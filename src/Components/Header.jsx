@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Logo from "../Assets/logo.png";
-import useIsOnline from "../Hooks/useIsOnline";
+import useIsOnline from "../hooks/useIsOnline";
 
 
 const Header = () => {

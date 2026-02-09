@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import useRestaurantMenu from "../Hooks/useRestaurantMenu";
+import useRestaurantMenu from "../hooks/useRestaurantMenu";
 import RestaurantItems from "./RestaurantItems";
 import ShimmerRestaurant from "../Components/ShimmerResturant";
 
